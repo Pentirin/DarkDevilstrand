@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+
+  <ThingDef ParentName="DarkstrandBase">
+	<defName>PlantCaveDevilstrand</defName>
+	<label>Darkstrand</label>
+	<description>A special breed of devilstrand that can grow without light.</description>
+    <statBases>
+		<MaxHitPoints>85</MaxHitPoints>
+		<Flammability>1.2</Flammability>
+		<Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+		<texPath>Things/Plant/Devilstrand</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+		<fertilityMin>0.2</fertilityMin>
+		<fertilitySensitivity>1.0</fertilitySensitivity>
+		<dieIfLeafless>true</dieIfLeafless>
+		<harvestMinGrowth>0.90</harvestMinGrowth>
+		<harvestTag>Standard</harvestTag>
+		<harvestedThingDef>DevilstrandCloth</harvestedThingDef>
+		<harvestYield>5</harvestYield>
+		<sowTags>
+			<li>Ground</li>
+		</sowTags>
+		<sowMinSkill>11</sowMinSkill>
+		<sowResearchPrerequisites>
+			<li>Darkstrand_research</li>
+		</sowResearchPrerequisites>
+		<topWindExposure>0.1</topWindExposure>
+		<growDays>24</growDays>
+	  <visualSizeRange>0.3~1.0</visualSizeRange>
+		<wildClusterRadius>3</wildClusterRadius>
+		<wildClusterWeight>5</wildClusterWeight>
+    </plant>
+</ThingDef>
+ 
+ 
+</Defs>

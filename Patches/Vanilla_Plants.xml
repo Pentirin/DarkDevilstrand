@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Fabrics</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "PlantCaveDevilstrand"]/plant/harvestedThingDef</xpath>
+				<value>
+					<harvestedThingDef>RawDevilstrand</harvestedThingDef>
+				</value>
+				</li>
+				 
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "PlantCaveDevilstrand"]/graphicData/texPath</xpath>
+				  <value>
+					<texPath>Things/Plants/Devilstrand</texPath>
+				  </value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
+

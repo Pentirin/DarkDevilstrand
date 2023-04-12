@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="DarkstrandBase" ParentName="BushBase" Abstract="True">
+		<plant>
+			<neverBlightable>true</neverBlightable>
+			<growMinGlow>0</growMinGlow>
+			<growOptimalGlow>0</growOptimalGlow>
+			<cavePlant>true</cavePlant>
+			<wildOrder>2</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
+	</ThingDef>
+
+</Defs>
