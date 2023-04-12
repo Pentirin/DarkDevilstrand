@@ -5,7 +5,7 @@
 		<defName>Darkstrand_research</defName>
 		<label>dark devilstrand</label>
 		<description>Grow a breed of devilstrand which can survive without sun.</description>
-		<baseCost>1500</baseCost>
+		<baseCost>650</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
       <li>Devilstrand</li>
