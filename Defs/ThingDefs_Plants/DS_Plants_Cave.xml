@@ -30,7 +30,7 @@
 		<sowTags>
 			<li>Ground</li>
 		</sowTags>
-		<sowMinSkill>11</sowMinSkill>
+		<sowMinSkill>10</sowMinSkill>
 		<sowResearchPrerequisites>
 			<li>Darkstrand_research</li>
 		</sowResearchPrerequisites>
